@@ -1,0 +1,9 @@
+
+print("Welcome to the birthday dictionary. We know the birthdays of: \nAlbert Einstein \nBenjamin Franklin \nAda Lovelace")
+
+
+a = input("Who's birthday do you want to look up?: ")
+my_dict = {"Albert Einstein":"01/09/1919", "Benjamin Franklin":"05/04/1977", "Ada Lovelace":"07/07/1644"}
+
+if a in my_dict:
+    print(f"The birthday of {a} is {my_dict[a]}")
